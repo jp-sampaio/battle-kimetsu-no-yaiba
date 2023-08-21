@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;500;700&display=swap" rel="stylesheet">
+  
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/response.css">
+
+  <title>Batalha - Kimetsu no Yaiba</title>
+</head>
+<body>
+  <header class="header">
+    <img src="./assets/images/logo-kimetsu.png" alt="Logo Kimetsu no Yaiba" class="logo">
+  </header>
+
+  <main class="character-selection">
+    <section class="characters">
+      <h1 class="title">Selecione um personagem</h1>
+      <ul class="list-characters">
+        <li class="character selected" id="akaza" data-name="Akaza" data-description="
+        Akaza é um Demônio forte, teimoso e impulsivo que gosta de lutar, especialmente 
+        contra Caçadores de Demônios fortes, ele é o Lua Superior 3.">
+          <img src="./assets/images/card-akaza.jpg" alt="Personagem Akaza" class="image-small">
+        </li>
+
+        <li class="character" id="douma" data-name="Douma" data-description="
+        Douma é um completo psicopata, incapaz de compreender as emoções básicas dos humanos.
+        Ele admite que durante seus dias humanos, o conceito de emoções era algo praticamente 
+        alienígena para ele, ele é o Lua Superior 2.">
+          <img src="./assets/images/card-douma.jpg" alt="Personagem Douma" class="image-small">
+        </li>
+
+        <li class="character" id="gyomei" data-name="Gyomei" data-description="
+        Gyomei encarna o arquétipo gigante gentil, sendo surpreendentemente de 
+        fala mansa e sensível, apesar de sua aparência intimidadora, ele é o Hashira do Som.">
+          <img src="./assets/images/card-gyomei.jpg" alt="Personagem Gyomei" class="image-small">
+        </li>
+
+        <li class="character" id="iguro" data-name="Iguro" data-description="
+        É um Caçador de Demônios, sendo o atual Pilar da Serpente do Corpo de Extermínio de Demônios.">
+          <img src="./assets/images/card-iguro.jpg" alt="Personagem Iguro" class="image-small">
+        </li>
+
+        <li class="character" id="inosuke" data-name="Inosuke" data-description="
+        É um Caçador de Demônios, sendo um dos amigos e companheiro de viagem de Tanjiro Kamado
+        e um dos principais protagonistas de Kimetsu no Yaiba.">
+          <img src="./assets/images/card-inosuke.jpg" alt="Personagem Inosuke" class="image-small">
+        </li>
+
+        <li class="character" id="kanroji" data-name="Kanroji" data-description="
+        Mitsuri Kanroji é uma Caçadora de Demônios emocional e apaixonada que elogia constantemente
+        as pessoas em sua cabeça, ela é a Hashira do Amor.">
+          <img src="./assets/images/card-kanroji.jpg" alt="Personagem Kanroji" class="image-small">
+        </li>
+
+        <li class="character" id="kokushibo" data-name="Kokushibo" data-description="
+        Kokushibo é um demônio extremamente forte e habilidoso, e suas habilidades incluem a 
+        capacidade de usar várias técnicas de respiração, ele é o Lua Superior 1.">
+          <img src="./assets/images/card-kokushibo.jpg" alt="Personagem Kokushibo" class="image-small">
+        </li>
+
+        <li class="character" id="muzan" data-name="Muzan" data-description="
+        Muzan Kibutsuji é um demônio, o primeiro de sua espécie, o progenitor de todos os outros demônios,
+        sendo o principal antagonista de Kimetsu no Yaiba: Demon Slayer.">
+          <img src="./assets/images/card-muzan.jpg" alt="Personagem Muzan" class="image-small">
+        </li>
+
+        <li class="character" id="rengoku" data-name="Rengoku" data-description="
+        É um Caçador de Demônios e o atual Pilar de Chamas dos Caçadores de Demônios.">
+          <img src="./assets/images/card-rengoku.jpg" alt="Personagem Rengoku" class="image-small">
+        </li>
+
+        <li class="character" id="sanemi" data-name="Sanemi" data-description="
+        Sanemi é um homem alto e musculoso, com cabelo vermelho e olhos azuis. 
+        O menudo traz uma expressão fria e desagradável em seu rostro e é conhecido por sua ação brusca e direta.">
+          <img src="./assets/images/card-sanemi.jpg" alt="Personagem Sanemi" class="image-small">
+        </li>
+
+        <li class="character" id="shinobu" data-name="Shinobu" data-description="
+        é bastante descontraída, sempre com um sorriso no rosto, independentemente da situação em que se encontra.">
+          <img src="./assets/images/card-shinobu.jpg" alt="Personagem Shinobu" class="image-small">
+        </li>
+
+        <li class="character" id="tanjiro" data-name="Tanjiro" data-description="
+        É gentil por natureza e foi descrito por outros como tendo olhos muito gentis.">
+          <img src="./assets/images/card-tanjiro.jpg" alt="Personagem Tanjiro Kamado" class="image-small">
+        </li>
+
+        <li class="character" id="tokito" data-name="Tokito" data-description="
+        É um Matador de Demônios, cabeça-dura que parece vagar constantemente em pensamentos e 
+        nunca se concentrar em uma coisa.">
+          <img src="./assets/images/card-tokito.jpg" alt="Personagem Tokito" class="image-small">
+        </li>
+
+        <li class="character" id="tomioka" data-name="Tomioka" data-description="
+        Giyuu Tomioka é um Caçador de Demônios e o atual Pilar da Água.">
+          <img src="./assets/images/card-tomioka.jpg" alt="Personagem Tomioka" class="image-small">
+        </li>
+
+        <li class="character" id="uzui" data-name="Uzui" data-description="
+        Um Caçador de Demônios, sendo o atual Pilar da Som do Corpo de Extermínio de Demônios.">
+          <img src="./assets/images/card-uzui.jpg" alt="Personagem Uzui" class="image-small">
+        </li>
+
+        <li class="character" id="zenitsu" data-name="Zenitsu" data-description="
+        Ele tem uma audição aguçada e pode identificar os sons feitos por outras pessoas ou demônios.">
+          <img src="./assets/images/card-zenitsu.jpg" alt="Personagem Zenitsu" class="image-small">
+        </li>
+      </ul>
+    </section>
+    <section class="selected-characted">
+      <img src="./assets/images/akaza.png" alt="Personagem Akaza" class="big-character">
+
+      <h2 class="name-character" id="name-character">Akaza</h2>
+      <p class="description-character" id="description-character">
+        Akaza é um Demônio forte, teimoso e impulsivo que gosta de lutar, 
+        especialmente contra Caçadores de Demônios fortes, ele é o Lua Superior 3.
+      </p>
+    </section>
+  </main>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

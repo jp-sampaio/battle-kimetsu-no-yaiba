@@ -1,0 +1,36 @@
+@media (max-width: 1120px) {
+  .header
+  .logo {
+    width: 19rem;
+  }
+
+  .character-selection {
+    flex-direction: column-reverse;
+    max-width: 43rem;
+    margin: 0 auto;
+  }
+
+  .character-selection
+  .characters
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .character-selection 
+  .list-characters {
+    gap: .9rem;
+  }
+
+  .character-selection
+  .selected-characted
+  .big-character {
+    width: 35rem;
+  }
+
+  .character-selection
+  .selected-characted
+  .description-character {
+    width: 80%;
+    margin: 2rem auto;
+  }
+}
